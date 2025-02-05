@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-routes-visualizer",
+  "version": "1.0.0",
+  "description": "visualize Next.js route structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amirjf/nextjs-routes-visualizer.git"
+  },
+  "keywords": [
+    "nextjs"
+  ],
+  "author": "Amirmasoud Jafari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amirjf/nextjs-routes-visualizer/issues"
+  },
+  "homepage": "https://github.com/Amirjf/nextjs-routes-visualizer#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  }
+}
