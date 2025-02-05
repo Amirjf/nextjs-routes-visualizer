@@ -1,6 +1,6 @@
 {
   "name": "nextjs-routes-visualizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "visualize Next.js route structures",
   "main": "dist/index.js",
   "scripts": {
