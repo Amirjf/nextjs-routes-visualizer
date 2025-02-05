@@ -1,5 +1,30 @@
+// {
+//   "compilerOptions": {
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "target": "es2022",
+//     "jsx": "react-jsx",
+//     "module": "ESNext",
+//     "moduleResolution": "node",
+//     "allowJs": true,
+//     "resolveJsonModule": true,
+//     "moduleDetection": "force",
+//     "isolatedModules": true,
+//     "verbatimModuleSyntax": true,
+//     "noEmit": true,
+//     "strict": true,
+//     "noUncheckedIndexedAccess": true,
+//     "noImplicitOverride": true,
+//     "lib": ["es2022", "dom", "dom.iterable"],
+//     "outDir": "dist",
+//     "rootDir": "src"
+//     // "module": "Preserve"
+//   }
+// }
+
 {
   "compilerOptions": {
+    /* Base Options: */
     "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "es2022",
@@ -8,11 +33,22 @@
     "moduleDetection": "force",
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
-    "noEmit": true,
+    "jsx": "react-jsx",
+    /* Strictness */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
+
+    /* If transpiling with TypeScript: */
+    "module": "NodeNext",
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": true,
     "lib": ["es2022", "dom", "dom.iterable"],
-    "module": "Preserve"
+    /* AND if you're building for a library: */
+    "declaration": true,
+
+    /* AND if you're building for a library in a monorepo: */
+    "declarationMap": true
   }
 }
