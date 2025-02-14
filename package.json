@@ -17,6 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/Amirjf/nextjs-routes-visualizer.git"
   },
+  "types": "dist/types.d.ts",
   "keywords": [
     "nextjs"
   ],
@@ -41,6 +42,7 @@
     "@changesets/cli": "^2.27.12",
     "@types/node": "^22.13.1",
     "@types/react": "^18.0.0",
+    "clsx": "^2.1.1",
     "prettier": "^3.4.2",
     "react": "^18.0.0",
     "tslib": "^2.8.1",

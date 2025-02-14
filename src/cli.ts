@@ -10,8 +10,6 @@ interface RouteInfo {
 }
 
 function generateRoutes(routesDirectory: string = './app'): RouteInfo[] {
-  //   const routes: RouteInfo[] = []
-
   function traverseDirectory(
     dirPath: string,
     currentPath: string = '',
